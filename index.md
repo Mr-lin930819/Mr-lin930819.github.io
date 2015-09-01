@@ -6,6 +6,18 @@ tagline: (使用Jekyll Bootstrap)
 {% include JB/setup %}
 
 测试页面 [点此进入](https://mr-lin930819.github.io/test.html)
+此测试页面的源代码如下：
+<!DOCTYPE html>
+	<html>
+	<body>
+
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+	   <polygon points="100,10 40,180 190,60 10,60 160,180"
+	   style="fill:red;stroke:blue;stroke-width:3;fill-rule:evenodd;" />
+	</svg>
+	 
+	</body>
+	</html>
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
