@@ -9,7 +9,7 @@ tagline: (使用Jekyll Bootstrap)
 
 此测试页面的源代码如下：
 
-<!DOCTYPE html>
+	<!DOCTYPE html>
 	<html>
 	<body>
 
@@ -21,13 +21,13 @@ tagline: (使用Jekyll Bootstrap)
 	</body>
 	</html>
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+阅读 [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+完整的使用以及有用的文档: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
+## 更新作者信息
 
-In `_config.yml` remember to specify your own data:
+记得在 `_config.yml` 文件中指定你自己的个人数据:
     
     title : My Blog =)
     
@@ -37,16 +37,16 @@ In `_config.yml` remember to specify your own data:
       github : username
       twitter : username
 
-The theme should reference these variables whenever needed.
+主题将会在需要的时候用到这些变量属性.
     
-## Sample Posts
+## 文章发表例子
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+这个博客包含发布示例，可以帮助进行文章和博客数据的筹划。
+当你不再需要这些示例了，可以将 `_posts/core-samples` 文件夹删除。
 
     $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
+下面是一个 "posts list"例子.
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -56,7 +56,7 @@ Here's a sample "posts list".
 
 ## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+这个主题还未完成. 如果你想加入我们成为一个贡献者, [请 fork](http://github.com/plusjade/jekyll-bootstrap)!
+我们需要整理这个主题, 让其用法指南经特定主题标记出来.
 
 
