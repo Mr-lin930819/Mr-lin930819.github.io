@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Mr-Lin个人主页
+tagline: (使用Jekyll Bootstrap)
 ---
 {% include JB/setup %}
+
+测试页面 [点此进入](https://mr-lin930819.github.io/test.html)
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
