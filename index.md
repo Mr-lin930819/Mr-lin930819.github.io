@@ -23,6 +23,9 @@ tagline: (使用Jekyll Bootstrap)
 
 阅读 [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
+有用的Java工具：
+Jsoup，java解析html工具[Jsoup.org](http://jsoup.org/)
+
 完整的使用以及有用的文档: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## 更新作者信息
