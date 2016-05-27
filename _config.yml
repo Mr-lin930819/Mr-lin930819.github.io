@@ -68,6 +68,6 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:https://github.com/Mr-lin930819/Mr-lin930819.github.io
-  branch:master
+     type: git
+     repo: https://github.com/Mr-lin930819/Mr-lin930819.github.io.git
+     branch: master
