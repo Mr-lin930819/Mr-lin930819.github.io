@@ -19,21 +19,25 @@
 ##Hexo在Ubuntu的安装
 1.在Node.js官网下载安装包
 
-[Node.js](https://nodejs.org/en/)
+[Node.js官网](https://nodejs.org/en/)
 
 2.下载并解压 node, 解压后文件夹移到通用的软件安装目录 /opt/ 
+
     sudo mv node-v4.x.x-linux-x64 /opt/
 
 3.安装 npm 和 node 命令到系统命令 
+
     sudo ln -s /opt/node-v4.x.X-linux-x64/bin/node /usr/local/bin/node
     sudo ln -s /opt/node-v4.x.x-linux-x64/bin/npm /usr/local/bin/npm
 
 4.安装成功后，使用npm淘宝源
+
     npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 [淘宝npm镜像](https://npm.taobao.org/)
 
 5.转到博客根目录，输入下面命令安装Hexo
+
     sudo cnpm install -g hexo
 ###Hexo的安装参考文章
 [HEXO+Github,搭建属于自己的博客](http://www.jianshu.com/p/465830080ea9)
