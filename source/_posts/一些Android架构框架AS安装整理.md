@@ -1,7 +1,7 @@
 ---
 title: 一些Android架构框架AS安装整理
-date: 2016-07-26 10:38:08
-tags:RxJava,Android
+date: 2016-07-28 10:02:46
+tags: RxJava,Android
 ---
 
 ## 1.RxJava
@@ -14,6 +14,7 @@ tags:RxJava,Android
     compile 'io.reactivex:rxjava:1.1.6'
 RxAndroid GitHub主页:
 [ReactiveX/RxAndroid](https://github.com/ReactiveX/RxAndroid)
+<!-- More -->
 ### 关于RxJava一些不错的文章
 
 1.[RxJava开发精要3-向响应式世界问好](http://www.tuicool.com/articles/Erqym2N)
